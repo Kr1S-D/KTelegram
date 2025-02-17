@@ -20,7 +20,6 @@ public class TelegramImpl implements ITelegramBot {
 
     public TelegramImpl(String botToken) {
         bot = new TelegramBot(botToken);
-
         this.pipeline = new HandlerPipeline();
         pipeline.appendHandler(new CallBackHandler());
     }
