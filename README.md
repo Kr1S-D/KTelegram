@@ -1,3 +1,23 @@
+**Repository**
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+**Dependency**
+
+```xml
+<dependency>
+    <groupId>com.github.Kr1S-D</groupId>
+    <artifactId>KTelegram</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 Esempio di chat Handler:
 ```java
 public class MessageHandler implements UpdateHandler {
