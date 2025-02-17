@@ -18,8 +18,8 @@ public class TelegramImpl implements ITelegramBot {
     private final TelegramBot bot;
     private final HandlerPipeline pipeline;
 
-    public TelegramImpl() {
-        bot = new TelegramBot("7834943914:AAEQ-7keOyJVHhJTOwnnDcaFbmKo49p6Ezg");
+    public TelegramImpl(String botToken) {
+        bot = new TelegramBot(botToken);
 
         this.pipeline = new HandlerPipeline();
         pipeline.appendHandler(new CallBackHandler());
