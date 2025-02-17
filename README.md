@@ -14,7 +14,7 @@
 <dependency>
     <groupId>com.github.Kr1S-D</groupId>
     <artifactId>KTelegram</artifactId>
-    <version>2.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
